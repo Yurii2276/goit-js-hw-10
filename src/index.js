@@ -35,7 +35,7 @@ function showCardCat(event) {
 
         console.log(`Selected value: ${selectedBreedId}`);
     
-    fetchCatByBreed(selectedBreed).then((catData) => {
+    fetchCatByBreed(selectedBreedId).then((catData) => {
     console.log(`PORODA`, catData);
   
 });;
