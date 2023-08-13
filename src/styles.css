@@ -4,8 +4,9 @@
 
 .cat-info {
   display: flex;
-  gap: 70px;
+  gap: 30px;
   align-items: center;
+  margin-top: 50px;
 }
 
 .cat-details {
@@ -13,14 +14,26 @@
 }
 
 .cat-info img {
-  max-width: 40%;
+  max-width: 50%;
   height: auto;
 }
 
 .characteristics-cat {
+  margin-right: 15px;
 }
 
 .temp {
   font-weight: 40px;
   font-size: larger;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+}
+.loader {
+  font-weight: 700;
 }
