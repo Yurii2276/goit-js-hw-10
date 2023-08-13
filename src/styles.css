@@ -1,0 +1,26 @@
+.breed-select {
+  width: 250px;
+}
+
+.cat-info {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+
+.cat-details {
+  flex-grow: 1;
+}
+
+.cat-info img {
+  max-width: 40%;
+  height: auto;
+}
+
+.characteristics-cat {
+}
+
+.temp {
+  font-weight: 40px;
+  font-size: larger;
+}
